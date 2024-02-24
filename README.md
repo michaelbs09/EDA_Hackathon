@@ -39,25 +39,39 @@ Aqui, separei algumas das perguntas dispostas na competição.
 
 1. Existe uma correlação significativa entre a área do imóvel (area) e o valor do aluguel (rent amount)?
 
+
+<p align="center">
 <img src="https://i.ibb.co/5KnrgPy/q1-a.png">
+</p>
 
 Valor de correlação entre Área do Imóvel e Valor do Aluguel é de 0.18. Como é possível observar, existem alguns outliers tanto para área quanto para o valor do aluguel. Vamos filtrar os dados para observar melhor essa relação entre essas duas variáveis.
 
+
+<p align="center">
 <img src="https://i.ibb.co/hDzRhMW/q1-b.png">
+</p>
 
 Observando agora a faixa com maior concentração dos dados, podemos notar que existe uma leve tendência no aumento do valor do aluguel à medida que a área aumenta. Contudo, como já calculado, essa é uma correlação fraca, pois, existe uma dispersão considerável indicando uma variabilidade significativa nos tamanhos dos imóveis e nos valores de aluguel, isso se agrava ainda mais com a presença dos outliers observados.<br><br>
 Por fim, a correlação positiva fraca sugere que, em geral, imóveis maiores têm tendência a ter valores de aluguel mais altos. No entanto, a variabilidade nos dados e a presença de outliers indicam que outros fatores também podem influenciar os valores de aluguel.
 
 3. Qual é a proporção de imóveis mobiliados (furniture) e não mobiliados? Existe diferença no valor do aluguel entre eles?
 
+<p align="center">
 <img src="https://i.ibb.co/Bq1FXhf/q3.png">
+</p>
+
+<p align="center">
 <img src="https://i.ibb.co/6138Qt2/Captura-de-tela-de-2024-02-24-10-33-40.png">
+</p>
 
 Nesse conjunto de dados, podemos visualizar que mais de 75% dos imóveis não possuem mobília previamente disponível para os inquilinos enquanto que menos de 1/4 dos 10334 imóveis são mobíliados. Como já era presumível o valor do aluguel dessas residências com mobília é maior que o valor para residências não mobiliadas, em mediana 46.04%.
 
 13. A localização (cidade) tem impacto significativo na taxa de HOA?
 
+
+<p align="center">
 <img src="https://i.ibb.co/ww8QKQ7/q13.png">
+</p>
 
 Analisando a relação cidade X taxa HOA, podemos destacar os seguintes insights:
 
